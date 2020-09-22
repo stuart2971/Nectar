@@ -41,7 +41,10 @@
 
 .section {
   position: static;
-  height: 80vh;
+  height: auto;
+  min-height: 80vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-image: url('../images/poke.jpeg');
   background-position: 0% 50%;
   background-size: cover;
@@ -50,7 +53,8 @@
 }
 
 .container-2 {
-  height: 100%;
+  height: auto;
+  min-height: 80vh;
 }
 
 .heading {
@@ -66,7 +70,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 60%;
+  height: 50vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -323,7 +327,20 @@
 }
 
 .section-3 {
-  height: 30vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  min-height: 30vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #9ccc9b;
 }
 
@@ -572,7 +589,8 @@
 }
 
 .navbar-3 {
-  height: 10vh;
+  height: auto;
+  min-height: 10vh;
   background-color: #fff;
 }
 
